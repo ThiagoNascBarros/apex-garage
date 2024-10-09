@@ -1,0 +1,49 @@
+header{
+    background-color: #000;
+    width: 1880px;
+    height: 136px;
+}
+.logo{
+    margin-top: 10px;
+    width: 391px;
+    height: 117px;
+    margin-left: 25px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #FFF;
+    font-family: 'Lexend Zetta';
+
+}
+.inicio{
+    margin-top: -66px;
+    margin-left: 1205px;
+}
+.servicos{
+    margin-top: -36px;
+    margin-left: 1315px;
+}
+.sobre{
+    margin-top: -36px;
+    margin-left: 1455px;
+}
+.contato{
+    margin-top: -36px;
+    margin-left: 1560px;
+}
+#iconGlobo{
+    width: 32.31px;
+    height: 35px;
+    margin-top: -70px;
+    margin-bottom: 24px;
+    margin-left: 1710px;
+}
+#iconUser{
+    width: 32.31px;
+    height: 30px;
+    margin-top: -70px;
+    margin-bottom: 45px;
+    margin-left: 1780px;
+}
