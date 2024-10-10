@@ -2,10 +2,12 @@
 
 *{
     font-family: 'Lexend Zetta', 'Bold';
+    margin: 0px;
+    min-width: none;
 }
 
 body{
     color: #000;
-    width: 1880px;
-    height: 1315px;
+    width: 1536px;
+    height: 944px;
 }
