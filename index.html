@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/styles/style.css">
+    <!-- Podemos começar a usar o tailwind  -->
+    <!-- <link href="./src/output" rel="stylesheet"> -->
+    <link class="iconImg" rel="icon" href="public/images/Ícones/logoBarraNavegacao.png" type="image/x-icon">
     <title>ApexGarage</title>
 </head>
 <body>
@@ -12,11 +15,11 @@
         <nav>
             <ul>
                 <li><a href="index.html"><p class="inicio">Início</p></a></li>
-                <li><a href="#servicos"><p class="servicos">Serviços</p></a></li>
+                <li><a href="/src/pages/servicos.html"><p class="servicos">Serviços</p></a></li>
                 <li><a href="#sobre"><p class="sobre">Sobre</p></a></li>
                 <li><a href="#contato"><p class="contato">Contato</p></a></li>
                 <li><a class="globo" href="google.com"><img src="public/images/Ícones/globo.svg" alt=""></a></li>
-                <li><a class="user" href="google.com"><img src="public/images/Ícones/user.svg" alt=""></a></li>
+                <li><a class="user" href="user.html"><img src="public/images/Ícones/user.svg" alt=""></a></li>
             </ul>
         </nav>
     </header>
@@ -37,6 +40,15 @@
     <footer class="footer">
         <img id="imgDeFundoInicialFooter" src="public/images/Ícones/logoApexGarage.jpeg" alt="">
         <hr class="linhaFooter">
+
+        <nav class="navfooter">
+            <ul class="ulfooter">
+                <li><a href=""><img src="/public/images/Ícones/facebook.svg" alt=""></a></li>
+                <li><a href=""><img src="/public/images/Ícones/instagram.svg" alt=""></a></li>
+                <li><a href=""><img src="/public/images/Ícones/call.svg" alt=""></a></li>
+                <li><a href=""><img src="/public/images/Ícones/mail.svg" alt=""></a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>

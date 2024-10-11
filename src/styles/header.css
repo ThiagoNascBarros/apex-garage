@@ -40,12 +40,30 @@ nav li{
 nav p{
     margin-top: 0;
     padding: 2px;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav p:hover{
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    border-radius: 4px;
 }
 
 nav img {
     margin-top: 13px;
     width: 30px;
     height: 27px;
+    cursor: pointer;
+    background-color: #000;
+    transition: 0.2s;
+}
+
+nav img:hover{
+    background-color: #1f1f1f;
+    padding: 10px 10px;
+    border-radius: 4px;
 }
 
 nav a{
@@ -55,4 +73,3 @@ nav a{
     padding: 0.1px;
     font-size: 12px;
 }
-

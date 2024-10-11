@@ -2,7 +2,8 @@
     width: 1536px;
     height: 235px;
     background-color: #000;
-    margin-top: -40px;
+    margin-top: -49px;
+    position: relative;
 }
 #imgDeFundoInicialFooter{
     margin-top: 75px;
@@ -43,4 +44,29 @@
         margin-bottom: 54px;
         margin-left: 30px;
     }
+}
+
+.navfooter {
+    margin-top: -170px; /* Espaçamento superior */
+    position: static;
+}
+
+.ulfooter {
+    list-style: none; 
+    padding: 10px; 
+    margin-left: 1250px;
+    gap: 0; 
+}
+
+.ulfooter li {
+    display: inline; /* Exibe os itens em linha */
+}
+
+.ulfooter a img {
+    width: 24px; 
+    height: 24px;
+}
+
+.ulfooter a img:hover {
+    background-color: #1f1f1f;
 }
