@@ -10,7 +10,7 @@
     }
     
     #imgDeFundoInicial{
-        width: 1536px;
+        width: 1536vw;
         height: auto;
         filter: brightness(0.25);
         margin-top: 100px;
@@ -151,4 +151,66 @@ main{
 .donoTxt{
     color: #FF0000;
 }
+
+.containerTwo{
+    background-color: #000;
+    width: 1920vw;
+    height: 173px;
+    margin-top: -4px;
+}
+
+#imgLiqui{
+    width: 95px;
+    height: 62px;
+    margin-top: 54px;
+    margin-left: 80px;
+}
+
+#imgPirelli{
+    width: 160px;
+    height: 106px;
+    margin-bottom: -23px;
+    margin-left: 110px;
+}
+
+#imgMotul{
+    width: 175px;
+    height: 175px;
+    margin-bottom: -55px;
+    margin-left: 110px;
+}
+
+#imgB{
+    width: 70px;
+    height: 70px;
+    margin-left: 110px;
+}
+
+#imgGoodyear{
+    width: 200px;
+    height: 38px;
+    margin-left: 110px;
+    margin-bottom: 12px;
+}
+
+#imgcofab{
+    width: 180px;
+    height: 37px;
+    margin-bottom: 13px;
+    margin-left: 110px;
+}
+
+#imgHan{
+    width: 350px;
+    height: 51px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+#servicosImg{
+    width: 100vw;
+    height: auto;
+    filter: brightness(0.25);
+}
+
 }
