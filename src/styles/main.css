@@ -10,7 +10,7 @@
     }
     
     #imgDeFundoInicial{
-        width: 1536vw;
+        width: 100vw;
         height: auto;
         filter: brightness(0.25);
         margin-top: 100px;
@@ -21,14 +21,14 @@
         margin-top: -700px;
         margin-left: 120px;
         color: #FFF;
-        font-size: 36px;
+        font-size: 2.3em;
     }
     
     #txtPromocao{
         position: absolute;
         margin-top: -605px;
         margin-left: 160px;
-        font-size: 20px;
+        font-size: 1.30em;
     }
     
     .linhaFirst{
@@ -59,7 +59,7 @@
     #txtFraseInical{
         position: absolute;
         color: #FFF;
-        font-size: 26px;
+        font-size: 1.75em;
         margin-right: 20px;
         margin-top: -340px;
         margin-left: 1000px;
@@ -72,6 +72,79 @@
     
     .donoTxt{
         color: #FF0000;
+    }
+
+    .containerTwo{
+        background-color: #000;
+        width: 1536vw;
+        height: 173px;
+        margin-top: -4px;
+    }
+    
+    #imgLiqui{
+        width: 80px;
+        height: 52px;
+        margin-top: 60px;
+        margin-left: 45px;
+    }
+    
+    #imgPirelli{
+        width: 140px;
+        height: 93px;
+        margin-bottom: -23px;
+        margin-left: 75px;
+    }
+    
+    #imgMotul{
+        width: 150px;
+        height: 150px;
+        margin-bottom: -52px;
+        margin-left: 75px;
+    }
+    
+    #imgB{
+        width: 55px;
+        height: 55px;
+        margin-bottom: -5px;
+        margin-left: 75px;
+    }
+    
+    #imgGoodyear{
+        width: 175px;
+        height: 34px;
+        margin-left: 75px;
+        margin-bottom: 5px;
+    }
+    
+    #imgcofab{
+        width: 160px;
+        height: 33px;
+        margin-bottom: 5px;
+        margin-left: 75px;
+    }
+    
+    #imgHan{
+        width: 300px;
+        height: 44px;
+        margin-bottom: 4px;
+        margin-left: 5px;
+    }
+    
+    #servicosImg{
+        width: 100vw;
+        height: auto;
+        filter: brightness(0.25);
+        z-index: 2;
+    }
+
+    #servicosTxt{
+        font-size: 3em;
+        color: #FFF;
+        position: absolute;
+        z-index: 3;
+        text-align: center;
+        margin-left: 590px;
+        margin-top: 90px;
     }
 }
 

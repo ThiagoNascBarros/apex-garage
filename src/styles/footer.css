@@ -4,8 +4,9 @@
         width: 1536px;
         height: 235px;
         background-color: #000;
-        margin-top: -49px;
+        margin-top: 3270px;
         position: relative;
+        z-index: 1;
     }
     #imgDeFundoInicialFooter{
         margin-top: 65px;

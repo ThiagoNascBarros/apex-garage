@@ -10,6 +10,7 @@ body{
     width: 1536px;
     height: 944px;
     overflow-x: hidden;
+    user-select: none;
 }
 
 @media screen and (max-width: 1920px){
@@ -23,5 +24,6 @@ body{
         width: 1920px;
         height: 3270px;
         overflow-x: hidden;
+        user-select: none;
     }
 }
